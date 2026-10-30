@@ -1,0 +1,5 @@
+metric,n,exact_agreement,mean_absolute_difference,cohen_kappa,kappa_note
+agency_score,40,0.875,0.125,0.21875000000000014,unweighted
+initiative,40,1.0,0.0,,undefined: expected agreement is 1
+resolution,40,0.875,0.125,0.21875000000000014,unweighted
+recognition,40,1.0,0.0,,undefined: expected agreement is 1

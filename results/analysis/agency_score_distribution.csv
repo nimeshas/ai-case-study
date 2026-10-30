@@ -1,0 +1,7 @@
+model,gender_version,0,1,2,3
+ChatGPT,Female,0,0,0,30
+ChatGPT,Male,0,0,1,29
+ChatGPT,Neutral,0,0,0,30
+Gemini,Female,0,0,1,29
+Gemini,Male,0,0,6,24
+Gemini,Neutral,1,0,4,25

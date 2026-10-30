@@ -1,0 +1,20 @@
+{
+  "source_sha256": {
+    "responses_chatgpt.csv": "9c76e6f22791487b351c2c57d283b00c7e5d7a3cd846dc0007fcfbca56b3af32",
+    "responses_gemini.csv": "8a11911208296b6183b19678be05dbc2007d25f58e9fd9abd1c9c7df3fc80793"
+  },
+  "records": 180,
+  "counts_by_model": {
+    "ChatGPT": {
+      "rows": 90,
+      "unique_ids": 90
+    },
+    "Gemini": {
+      "rows": 90,
+      "unique_ids": 90
+    }
+  },
+  "errors": [],
+  "original_backups": "data/archive/original",
+  "historical_exclusions": "results/excluded_duplicates.csv"
+}

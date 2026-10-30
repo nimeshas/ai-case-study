@@ -1,0 +1,18 @@
+{
+  "seed": 20261030,
+  "bootstrap_samples": 20000,
+  "scores_file": "main response datasets (all LLM)",
+  "scores_sha256": null,
+  "response_sha256": {
+    "responses_chatgpt.csv": "9c76e6f22791487b351c2c57d283b00c7e5d7a3cd846dc0007fcfbca56b3af32",
+    "responses_gemini.csv": "8a11911208296b6183b19678be05dbc2007d25f58e9fd9abd1c9c7df3fc80793"
+  },
+  "status": [
+    "180/180 LLM-labelled stories from the main response datasets. Human labels remain separate."
+  ],
+  "versions": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "matplotlib": "3.11.2"
+  }
+}
