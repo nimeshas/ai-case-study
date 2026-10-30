@@ -1,0 +1,92 @@
+{
+  "n_stories": 60,
+  "counts": [
+    {
+      "gender_label": "male",
+      "count": 16,
+      "denominator": 60,
+      "percentage": 26.666666666666668
+    },
+    {
+      "gender_label": "female",
+      "count": 44,
+      "denominator": 60,
+      "percentage": 73.33333333333333
+    },
+    {
+      "gender_label": "nonbinary_or_other_explicit",
+      "count": 0,
+      "denominator": 60,
+      "percentage": 0.0
+    },
+    {
+      "gender_label": "unknown_or_ambiguous",
+      "count": 0,
+      "denominator": 60,
+      "percentage": 0.0
+    }
+  ],
+  "tests": [
+    {
+      "test": "two-sided exact binomial (p0=0.5)",
+      "model": "ChatGPT",
+      "male": 4,
+      "female": 26,
+      "n_test": 30,
+      "excluded": 0,
+      "p_value": 5.947612226009369e-05,
+      "p_exact_fraction": "31931/536870912",
+      "status": "computed"
+    },
+    {
+      "test": "two-sided exact binomial (p0=0.5)",
+      "model": "Gemini",
+      "male": 12,
+      "female": 18,
+      "n_test": 30,
+      "excluded": 0,
+      "p_value": 0.361594608053565,
+      "p_exact_fraction": "194129627/536870912",
+      "status": "computed"
+    },
+    {
+      "test": "two-sided Fisher exact",
+      "model": "ChatGPT vs Gemini",
+      "male": 16,
+      "female": 44,
+      "n_test": 60,
+      "excluded": 0,
+      "p_value": 0.039097137674548754,
+      "p_exact_fraction": "683782/17489311",
+      "status": "computed"
+    }
+  ],
+  "fisher_table": {
+    "rows": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "columns": [
+      "male",
+      "female"
+    ],
+    "values": [
+      [
+        4,
+        26
+      ],
+      [
+        12,
+        18
+      ]
+    ]
+  },
+  "review_needed": [
+    "R_P007_gpt_1",
+    "R_P007_gpt_3",
+    "R_P010_gpt_1",
+    "R_P010_gpt_2",
+    "R_P016_gpt_2"
+  ],
+  "interpretation": "Exploratory unadjusted tests conditional on binary labels. These do not establish presence or absence of bias. Stories share occupational prompts; independence is an approximation. No occupation-level significance tests. LLM labels are not human ground truth; Gemini also classifies its own generated stories. Confidence is uncalibrated self-report, not a probability of correctness."
+}

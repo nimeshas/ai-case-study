@@ -1,0 +1,9 @@
+model,gender_label,count,denominator,percentage
+ChatGPT,male,4,30,13.333333333333334
+ChatGPT,female,26,30,86.66666666666667
+ChatGPT,nonbinary_or_other_explicit,0,30,0.0
+ChatGPT,unknown_or_ambiguous,0,30,0.0
+Gemini,male,12,30,40.0
+Gemini,female,18,30,60.0
+Gemini,nonbinary_or_other_explicit,0,30,0.0
+Gemini,unknown_or_ambiguous,0,30,0.0

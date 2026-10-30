@@ -1,0 +1,5 @@
+gender_label,count,denominator,percentage
+male,16,60,26.666666666666668
+female,44,60,73.33333333333333
+nonbinary_or_other_explicit,0,60,0.0
+unknown_or_ambiguous,0,60,0.0

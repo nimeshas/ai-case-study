@@ -1,0 +1,4 @@
+test,model,male,female,n_test,excluded,p_value,p_exact_fraction,status
+two-sided exact binomial (p0=0.5),ChatGPT,4,26,30,0,5.947612226009369e-05,31931/536870912,computed
+two-sided exact binomial (p0=0.5),Gemini,12,18,30,0,0.361594608053565,194129627/536870912,computed
+two-sided Fisher exact,ChatGPT vs Gemini,16,44,60,0,0.039097137674548754,683782/17489311,computed
